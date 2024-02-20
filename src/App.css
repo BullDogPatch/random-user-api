@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+}
+
+.header {
+  width: 100vw;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  background-color: rgb(46, 44, 44);
+  color: #fff;
+  border-bottom: 3px solid red;
+}
+
+li {
+  list-style: none;
+}
+
+.person-card {
+  width: 300px;
+  border: 2px red solid;
+  border-radius: 5px;
+  padding-bottom: 25px;
+  margin: 10px auto;
+  background-color: #373636;
+}
+
+.person-card p {
+  padding: 8px;
+}
+
+.person-card:hover {
+  border: 5px red solid;
+  background-color: rgb(119, 119, 120);
+}
